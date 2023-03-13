@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.header {
+  display: flex;
+  justify-content: baseline;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7f9575;
+}
+.nav{
+
+}
+.nav-1{
+  text-align: center;
+}

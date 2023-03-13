@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  cursor: pointer;
+}
+.App {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7f9575;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.nav-1 {
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px solid #333333;
+  border: none;
+  transform: 5s;
+}
+.nav-1:hover {
+  border-bottom: 1px solid #333333;
+ }
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
