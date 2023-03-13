@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 10px;
+}
+.nav_v {
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.nav_v div {
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: translateY(-10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+.nav_v:hover div {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}

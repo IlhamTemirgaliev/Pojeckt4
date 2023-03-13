@@ -1,7 +1,4 @@
-import { useState } from "react";
 import reactLogo from "./assets/Logo.png";
-import logo1 from "./assets/Subtract.png";
-import logo2 from "./assets/insta.png";
 import "./App.css";
 import NavContact from "./components/NavContact/NavContact";
 import Nav from "./components/Nav/Nav";
