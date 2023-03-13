@@ -1,10 +1,18 @@
 import React from "react";
 
- const Nav = (title) => {
+const Nav = () => {
   return (
-    <a className="nav-1" href="">
-      {title}
-    </a>
+    <div className="nav">
+      <a className="nav-1" href="">
+        Каталог
+      </a>
+      <a className="nav-1" href="">
+        Акций
+      </a>
+      <a className="nav-1" href="">
+        Контакты
+      </a>
+    </div>
   );
 };
-export default Nav
+export default Nav;
