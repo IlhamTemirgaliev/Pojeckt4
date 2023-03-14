@@ -13,6 +13,9 @@ function App() {
         <Nav />
         <NavContact />
       </div>
+      <div className="slaider">
+        
+      </div>
     </div>
   );
 }
