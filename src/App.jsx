@@ -2,6 +2,10 @@ import reactLogo from "./assets/Logo.png";
 import "./App.css";
 import NavContact from "./components/NavContact/NavContact";
 import Nav from "./components/Nav/Nav";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Slider } from "./components/Slider/Slider";
+import { Container } from "./shared/Container/index";
 
 function App() {
   return (
@@ -13,9 +17,7 @@ function App() {
         <Nav />
         <NavContact />
       </div>
-      <div className="slaider">
-        
-      </div>
+      <Slider />
     </div>
   );
 }
