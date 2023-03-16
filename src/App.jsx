@@ -1,11 +1,25 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "./assets/Logo.png";
 import "./App.css";
+import NavContact from "./components/NavContact/NavContact";
+import Nav from "./components/Nav/Nav";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Slider } from "./components/Slider/Slider";
+import { Container } from "./shared/Container/index";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <div className="header">
+        <div className="logo">
+          <img src={reactLogo} alt="logo" />
+        </div>
+        <Nav />
+        <NavContact />
+      </div>
+      <Slider />
+    </div>
+  );
 }
 
 export default App;
