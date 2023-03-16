@@ -1,0 +1,7 @@
+.swiper-pagination {
+  margin-left: 300px !important;
+}
+
+.swiper-pagination-bullet[aria-current="true"] {
+  background: #fff;
+}
