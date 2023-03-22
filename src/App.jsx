@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className="header">
         <div className="logo">
-          <img src={reactLogo} alt="logo" />
+          <img className="logo1" src={reactLogo} alt="logo" />
         </div>
         <Nav />
         <NavContact />
