@@ -29,11 +29,13 @@ export const Slider = () => {
               <div className={styles.divv}>
                 <img className={styles.imgsw} src={item.image} alt="" />
               </div>
-              <span className={styles.price}>от {item.price} P</span>
-              <div className={styles.title1}>
-                <h1 className={styles.title}>{item.title}</h1>
+              <div className={styles.posit}>
+                <span className={styles.price}>от {item.price} P</span>
+                <div className={styles.title1}>
+                  <h1 className={styles.title}>{item.title}</h1>
+                </div>
+                <button className={styles.btnswiper}>{item.phrase}</button>
               </div>
-              <button className={styles.btnswiper}>{item.phrase}</button>
             </SwiperSlide>
           );
         })}
