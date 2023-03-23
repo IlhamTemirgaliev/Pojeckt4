@@ -8,7 +8,6 @@
 }
 .slaider {
   margin-top: 20px;
-  height: 600px;
 }
 .title1 {
   width: 100px;
@@ -27,7 +26,7 @@
 .btnswiper {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(10px, 2vw, 22px);
+  font-size: clamp(5px, 2vw, 22px);
   border: none;
   cursor: pointer;
   padding: 16px 30px;
@@ -35,7 +34,7 @@
   border-radius: 50px;
 }
 .price {
-  font-size: 30px;
+  font-size: clamp(10px, 2vw, 30px);
   font-weight: 600;
 
   color: white;
@@ -51,8 +50,52 @@
   transform: translateY(-50%);
   padding-left: 40px;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1180px) {
   .btnswiper {
     padding: 10px 15px;
+  }
+  .price {
+    padding: 6px 12px;
+  }
+}
+@media (max-width: 1100px) {
+  .title {
+    width: 400px;
+  }
+}
+@media (max-width: 742px) {
+  .title {
+    width: 300px;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .btnswiper {
+    padding: 8px 12px;
+    margin-top: 5px;
+  }
+  .posit {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 518px) {
+  .title {
+    font-size: 24px;
+    width: 200px;
+  }
+  .posit {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 472px) {
+  .title {
+    font-size: 18px;
+    width: 100px;
+  }
+  .price {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .btnswiper {
+    padding: 5px 10px;
   }
 }
