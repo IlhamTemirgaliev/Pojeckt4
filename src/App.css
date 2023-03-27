@@ -19,3 +19,16 @@ body {
 
   border-bottom: 2px solid #7f9575;
 }
+
+@media (max-width: 480px) {
+  .header {
+    display: block;
+  }
+  .logo {
+    width: 160px;
+    margin: 0 auto;
+  }
+  .logo1 {
+    max-width: 100%;
+  }
+}

@@ -8,44 +8,94 @@
 }
 .slaider {
   margin-top: 20px;
-  height: 600px;
 }
 .title1 {
   width: 100px;
 }
 .title {
   font-family: "Montserrat", sans-serif;
-  font-size: 70px;
-  top: 300px;
-  left: 40px;
+  font-size: clamp(20px, 5vw, 70px);
   font-weight: 800;
   width: 600px;
-  position: absolute;
   color: white;
+
   margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 .btnswiper {
-  position: absolute;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  top: 480px;
+  font-size: clamp(5px, 2vw, 22px);
   border: none;
-  left: 40px;
   cursor: pointer;
   padding: 16px 30px;
+  margin-top: 20px;
   border-radius: 50px;
 }
 .price {
-  top: 240px;
-  left: 40px;
-  position: absolute;
-  font-size: 30px;
+  font-size: clamp(10px, 2vw, 30px);
   font-weight: 600;
+
   color: white;
   border-radius: 50px;
   background: #dfa650;
   font-family: "Montserrat", sans-serif;
   padding: 10px 20px;
+}
+.posit {
+  position: absolute;
+  top: 50%;
+  padding-top: 80px;
+  transform: translateY(-50%);
+  padding-left: 40px;
+}
+@media (max-width: 1180px) {
+  .btnswiper {
+    padding: 10px 15px;
+  }
+  .price {
+    padding: 6px 12px;
+  }
+}
+@media (max-width: 1100px) {
+  .title {
+    width: 400px;
+  }
+}
+@media (max-width: 742px) {
+  .title {
+    width: 300px;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .btnswiper {
+    padding: 8px 12px;
+    margin-top: 5px;
+  }
+  .posit {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 518px) {
+  .title {
+    font-size: 24px;
+    width: 200px;
+  }
+  .posit {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 472px) {
+  .title {
+    font-size: 18px;
+    width: 100px;
+  }
+  .price {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .btnswiper {
+    padding: 5px 10px;
+  }
 }
