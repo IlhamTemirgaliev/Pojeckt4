@@ -5,11 +5,6 @@ import Nav from "./components/Nav/Nav";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Slider } from "./components/Slider/Slider";
-import imghed1 from "./assets/headerse.png";
-import imghed2 from "./assets/headerse1.png";
-import imghed3 from "./assets/headerse2.png";
-import imghed4 from "./assets/headerse3.png";
-
 import { Container } from "./shared/Container/index";
 import { HeaderCard } from "./components/HeaderCard/HeaderCard";
 
