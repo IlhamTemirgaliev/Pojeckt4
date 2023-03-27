@@ -1,0 +1,19 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+.impressions {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.block_card_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 60px;
+}
