@@ -1,28 +1,28 @@
-.card_0 {
+.card_block {
   background: #FFFFFF;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
-.title {
+.title_card {
   font-size: 30px;
   font-weight: 600;
   text-align: center;
   color: #333333;
 }
-.price {
+.price_card {
   margin: 44px 0 24px 0;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
   color: #333333;
 }
-.btn {
+.btn_card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.button {
+.button_card {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -32,7 +32,7 @@
   border-radius: 40px;
   border: none;
 }
-.link {
+.link_card {
   margin: 22px 0 28px 0;
   text-decoration: none;
   font-size: 20px;
@@ -40,7 +40,9 @@
   text-align: center;
   color: #888888;
 }
-
+.img_card {
+  border-radius: 20px 20px 0 0;
+}
 /* .card_0_0 {
   background: #FFFFFF;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
@@ -57,3 +59,92 @@
   background: #DFA650;
   border-radius: 0px 20px;
 } */
+
+
+@media (max-width: 990px) {
+  .card_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_card {
+    width: 307px;
+  }
+  .title_card {
+    font-size: 26px;
+  }
+  .price_card {
+    font-size: 34px;
+    margin: auto 0 24px 0;
+  }
+  .button_card {
+    font-size: 18px;
+    padding: 10px 70px;
+  }
+  .link_card {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 685px) {
+  /* .card_block {
+    display: flex;
+    flex-direction: column;
+  } */
+  .img_card {
+    width: 270px;
+  }
+  .title_card {
+    font-size: 20px;
+  }
+  .price_card {
+    font-size: 30px;
+    /* margin: auto 0 24px 0; */
+  }
+  .button_card {
+    font-size: 16px;
+    padding: 10px 60px;
+  }
+  .link_card {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 510px) {
+  .img_card {
+    width: 200px;
+  }
+  .title_card {
+    font-size: 18px;
+  }
+  .price_card {
+    font-size: 26px;
+    margin: 0 0 14px 0;
+  }
+  .button_card {
+    font-size: 14px;
+    padding: 10px 50px;
+  }
+  .link_card {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .img_card {
+    width: 158px;
+  }
+  .title_card {
+    font-size: 16px;
+  }
+  .price_card {
+    font-size: 20px;
+    margin: auto 0 12px 0;
+  }
+  .button_card {
+    font-size: 12px;
+    padding: 10px 40px;
+  }
+  .link_card {
+    font-size: 12px;
+  }
+}

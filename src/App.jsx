@@ -1,3 +1,4 @@
+import "./App.css";
 import CardsBlock from "./components/CardsBlock/CardsBlock"
 
 function App() {
