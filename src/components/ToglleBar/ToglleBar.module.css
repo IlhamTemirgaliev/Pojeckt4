@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.title1:hover {
+  background: #ca0101;
+}
+.item {
+  border: 1px solid #ca0101;
+  background: black;
+  color: white;
+}
+.text {
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+.inp {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.title1 {
+  transition: 0.2s ease-out;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  cursor: pointer;
+  font-weight: 600;
+}
