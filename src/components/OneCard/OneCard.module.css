@@ -2,6 +2,18 @@
   background: #FFFFFF;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  position: relative;
+}
+.free {
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 13px 18px;
+  color: #FFFFFF;
+  background: #DFA650;
+  border-radius: 0px 20px;
 }
 .title_card {
   font-size: 30px;
