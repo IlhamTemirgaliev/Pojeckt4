@@ -6,11 +6,13 @@
 }
 .title1:hover {
   background: #ca0101;
+  border-radius: 8px;
 }
 .item {
-  border: 1px solid #ca0101;
+  border-radius: 8px;
   background: black;
   color: white;
+  margin-bottom: 5px;
 }
 .text {
   display: none;
@@ -24,13 +26,42 @@
   width: 0;
   height: 0;
 }
+.inp:checked ~ .text {
+  display: block;
+}
+.inp:checked ~ .title1 {
+  background: #ca0101;
+  border-radius: 8px;
+}
+.inp:checked ~ .title1::after {
+  content: "";
+  border-style: solid;
+  border-width: 0 10px 12px 10px;
+  border-color: transparent transparent black transparent;
+}
+
 .title1 {
   transition: 0.2s ease-out;
   font-family: "Montserrat", sans-serif;
   display: block;
+  position: relative;
   font-size: 20px;
   padding: 20px;
   padding-left: 40px;
   cursor: pointer;
   font-weight: 600;
+}
+.title1::after {
+  content: "";
+  transition: 0.2s ease-out;
+
+  display: block;
+  border-style: solid;
+  border-width: 12px 10px 0 10px;
+  border-color: #007bff transparent transparent transparent;
+
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
 }
