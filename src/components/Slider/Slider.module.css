@@ -30,8 +30,12 @@
   border: none;
   cursor: pointer;
   padding: 16px 30px;
+  transition: 0.2s ease-out;
   margin-top: 20px;
   border-radius: 50px;
+}
+.btnswiper:hover {
+  background: #dfa650;
 }
 .price {
   font-size: clamp(10px, 2vw, 30px);

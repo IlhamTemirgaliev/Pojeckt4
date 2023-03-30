@@ -5,12 +5,13 @@
   font-weight: 700;
 }
 .title1:hover {
-  background: #ca0101;
+  background: #4e6644;
   border-radius: 8px;
 }
+/* #ca0101 */
 .item {
   border-radius: 8px;
-  background: black;
+  background: rgb(54, 53, 53);
   color: white;
   margin-bottom: 5px;
 }
@@ -30,7 +31,7 @@
   display: block;
 }
 .inp:checked ~ .title1 {
-  background: #ca0101;
+  background: #4e6644;
 
   border-radius: 8px;
 }
