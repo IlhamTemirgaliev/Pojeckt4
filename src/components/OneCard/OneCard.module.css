@@ -1,0 +1,158 @@
+.card_block {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.free {
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 13px 18px;
+  color: #FFFFFF;
+  background: #DFA650;
+  border-radius: 0px 20px;
+}
+.title_card {
+  margin: 30px 30px auto;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #333333;
+}
+.price_card {
+  margin: 44px 0 24px 0;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #333333;
+}
+.btn_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button_card {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 12px 95px;
+  background: #547147;
+  border-radius: 40px;
+  border: none;
+}
+.link_card {
+  margin: 22px 0 28px 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #888888;
+}
+.img_card {
+  border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 990px) {
+  .card_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_card {
+    width: 307px;
+  }
+  .title_card {
+    font-size: 26px;
+  }
+  .price_card {
+    font-size: 34px;
+    margin: auto 0 24px 0;
+  }
+  .button_card {
+    font-size: 18px;
+    padding: 10px 70px;
+  }
+  .link_card {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 685px) {
+  .free {
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 0 16px;
+  }
+  .img_card {
+    width: 270px;
+  }
+  .title_card {
+    font-size: 20px;
+  }
+  .price_card {
+    font-size: 30px;
+  }
+  .button_card {
+    font-size: 16px;
+    padding: 10px 60px;
+  }
+  .link_card {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 510px) {
+  .free {
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 0 14px;
+  }
+  .img_card {
+    width: 200px;
+  }
+  .title_card {
+    font-size: 18px;
+  }
+  .price_card {
+    font-size: 26px;
+    margin: 0 0 14px 0;
+  }
+  .button_card {
+    font-size: 14px;
+    padding: 10px 50px;
+  }
+  .link_card {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .free {
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 0 10px;
+  }
+  .img_card {
+    width: 158px;
+  }
+  .title_card {
+    font-size: 16px;
+  }
+  .price_card {
+    font-size: 20px;
+    margin: auto 0 12px 0;
+  }
+  .button_card {
+    font-size: 12px;
+    padding: 10px 40px;
+  }
+  .link_card {
+    font-size: 12px;
+  }
+}

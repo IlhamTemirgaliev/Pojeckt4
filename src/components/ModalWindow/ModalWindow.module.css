@@ -1,0 +1,14 @@
+.madal_block {
+  display: flex;
+  justify-content: space-around;
+}
+.img_a{
+  border-radius: 20px;
+}
+.three_img {
+  display: flex;
+  justify-content: space-between;
+}
+.img_modal {
+  border-radius: 20px;
+}
