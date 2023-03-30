@@ -1,0 +1,7 @@
+.madal_block {
+  display: flex;
+  justify-content: space-around;
+}
+.img_a{
+  border-radius: 20px;
+}
