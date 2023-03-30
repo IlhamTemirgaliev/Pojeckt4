@@ -16,7 +16,7 @@ export const ModalWindow = ({ attributes }) => {
       <div className={styles.modal_info}>
         <p>{attributes.title}</p>
         <p>{attributes.price}</p>
-        <button>Заказать</button>
+        <button className={styles.btn}>Заказать</button>
         <p><ReactMarkdown>{attributes.content}</ReactMarkdown></p>
       </div>
 

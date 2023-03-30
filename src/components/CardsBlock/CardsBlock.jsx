@@ -26,7 +26,7 @@ function CardsBlock() {
             return (
               <Fragment  key={item.id}>
                 <OneCard {...item}/>
-                <ModalWindow {...item}/>
+                {/* <ModalWindow {...item}/> */}
               </Fragment>
             )
           })}
