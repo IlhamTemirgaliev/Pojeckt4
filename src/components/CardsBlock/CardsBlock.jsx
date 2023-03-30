@@ -8,6 +8,7 @@ function CardsBlock() {
   const [list, setList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(null)
 
+
   useEffect(() => {
     cardPost().then(res => {
       setList(res.data)
