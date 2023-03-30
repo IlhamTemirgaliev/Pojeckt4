@@ -12,7 +12,8 @@
     "ky": "^0.33.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.6"
+    "react-markdown": "^8.0.6",
+    "swiper": "^9.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

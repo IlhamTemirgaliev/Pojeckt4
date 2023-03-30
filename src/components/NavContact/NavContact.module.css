@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-right: 10px;
+}
+.num {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.lo {
+  cursor: pointer;
+}
+@media (max-width: 910px) {
+  .num {
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  .contact {
+    display: none;
+  }
+}
