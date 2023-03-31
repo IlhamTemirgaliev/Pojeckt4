@@ -9,8 +9,11 @@
   font-size: 40px;
   text-align: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+
   text-transform: uppercase;
   color: #333333;
+  margin-bottom: 0px;
 }
 .block_card_1 {
   display: grid;
@@ -63,6 +66,6 @@
   }
   .block_card_1 {
     grid-template-columns: 158px 158px;
-    gap: 20px;
+    gap: 10px;
   }
 }
