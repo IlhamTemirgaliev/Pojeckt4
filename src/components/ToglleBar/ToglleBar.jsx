@@ -3,13 +3,26 @@ import { Container } from "./../../shared/Container/index";
 import styles from "./ToglleBar.module.css";
 import { toglee } from "./toglle";
 
-export const ToglleBar = () => {
+import { useEffect, useState } from "react";
+import { toggleBarr } from "../../api";
+import { mockData } from "./../Slider/mockData";
+
+export const ToglleBar = ({ attributes }) => {
+  const [test, setTest] = useState([]);
+
+  useEffect(() => {
+    toggleBarr().then((res) => {
+      setTest(res.data);
+    });
+  }, []);
+
+  console.log(test);
   return (
     <Container>
       <div>
         <h1 className={styles.title}>ЧАСТО ЗАДОВАЕМЫЕ ВОПРОСЫ </h1>
 
-        {toglee.map((item, index) => {
+        {test.map((item, index) => {
           return (
             <div key={item.id} className={styles.item}>
               <input
@@ -18,7 +31,7 @@ export const ToglleBar = () => {
                 id={"inp" + index + 1}
               />
               <label for={"inp" + index + 1} className={styles.title1}>
-                {item.title}
+                {item.Toglleheader}
               </label>
 
               <div className={styles.text}>

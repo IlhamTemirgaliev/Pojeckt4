@@ -21,6 +21,7 @@ function App() {
       <Slider />
       <HeaderCard />
       <CardsBlock />
+      <ToglleBar />
     </div>
   );
 }
