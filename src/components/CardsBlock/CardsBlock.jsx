@@ -15,7 +15,7 @@ function CardsBlock() {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div id="katalog" className={styles.container}>
       <marquee direction="right">
         <h1 className={styles.impressions}>Каталог впечатлений</h1>
       </marquee>
