@@ -11,3 +11,7 @@ export const cardPost = () => {
 export const toggleBarr = () => {
   return cardApi.get("togllebars").json();
 };
+
+export const slaiderr = () => {
+  return cardApi.get("slaiders/?populate=slaiderimg").json()
+}

@@ -27,4 +27,5 @@ export const mockData = [
     phrase: "Заказать Впечатления",
     image: "/images/slaider4.png",
   },
+  
 ];

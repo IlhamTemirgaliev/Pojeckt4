@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import styles from "./Slider.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -9,8 +9,17 @@ import "swiper/css/pagination";
 import "./Slider.css";
 import { Container } from "./../../shared/Container/index";
 import { mockData } from "./mockData";
+import { slaiderr } from "../../api";
 
 export const Slider = () => {
+  const [datan, setDatan] = useState([]);
+
+  useEffect(() => {
+    slaiderr().then((res) => {
+      setDatan(res.data);
+    });
+  }, []);
+  console.log(datan);
   return (
     <Container className={styles.slaider}>
       <Swiper
