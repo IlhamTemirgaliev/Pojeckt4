@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "./../../shared/Container/index";
 import styles from "./ToglleBar.module.css";
-import { toglee } from "./toglle";
 
 import { useEffect, useState } from "react";
 import { toggleBarr } from "../../api";

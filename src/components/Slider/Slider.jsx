@@ -32,18 +32,26 @@ export const Slider = () => {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {mockData.map((item) => {
+        {datan.map((item) => {
           return (
             <SwiperSlide key={item.id}>
               <div className={styles.divv}>
-                <img className={styles.imgsw} src={item.image} alt="" />
+                <img
+                  className={styles.imgsw}
+                  src={item.attributes.slaiderimg.data[0].attributes.url}
+                  alt=""
+                />
               </div>
               <div className={styles.posit}>
-                <span className={styles.price}>от {item.price} P</span>
+                <span className={styles.price}>
+                  от {item.attributes.slaiderprice} P
+                </span>
                 <div className={styles.title1}>
-                  <h1 className={styles.title}>{item.title}</h1>
+                  <h1 className={styles.title}>
+                    {item.attributes.slaidername}
+                  </h1>
                 </div>
-                <button className={styles.btnswiper}>{item.phrase}</button>
+                <button className={styles.btnswiper}>Заказать Впечатления</button>
               </div>
             </SwiperSlide>
           );
