@@ -27,6 +27,8 @@ export const Slider = () => {
         spaceBetween={50}
         slidesPerView={1}
         navigation
+        freeMode={true}
+        loop={true}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSlideChange={() => console.log("slide change")}
@@ -51,7 +53,9 @@ export const Slider = () => {
                     {item.attributes.slaidername}
                   </h1>
                 </div>
-                <button className={styles.btnswiper}>Заказать Впечатления</button>
+                <button className={styles.btnswiper}>
+                  Заказать Впечатления
+                </button>
               </div>
             </SwiperSlide>
           );

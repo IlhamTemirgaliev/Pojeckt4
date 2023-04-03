@@ -7,6 +7,7 @@ import "swiper/css";
 import { Slider } from "./components/Slider/Slider";
 import { HeaderCard } from "./components/HeaderCard/HeaderCard";
 import { ToglleBar } from "./components/ToglleBar/ToglleBar";
+import { SliderTo } from "./components/SliderTo/SliderTo";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Slider />
       <HeaderCard />
       <CardsBlock />
-      <ToglleBar />
+      <SliderTo/>
     </div>
   );
 }
