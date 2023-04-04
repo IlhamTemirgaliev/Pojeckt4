@@ -15,3 +15,6 @@ export const toggleBarr = () => {
 export const slaiderr = () => {
   return cardApi.get("slaiders/?populate=slaiderimg").json()
 }
+export const slaiderto = () => {
+  return cardApi.get('slidertos/?populate=slaidermedia').json()
+}

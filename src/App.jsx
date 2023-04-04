@@ -22,7 +22,6 @@ function App() {
       <Slider />
       <HeaderCard />
       <CardsBlock />
-      <SliderTo/>
     </div>
   );
 }
