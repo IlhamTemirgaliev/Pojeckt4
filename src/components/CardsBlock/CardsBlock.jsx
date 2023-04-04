@@ -1,8 +1,9 @@
-import styles from "./CardsBlock.module.css";
-import { useEffect, useState, Fragment } from "react";
-import { cardPost } from "../../api";
-import { OneCard } from "../OneCard/OneCard";
-import { ModalWindow } from "../ModalWindow/ModalWindow";
+import styles from './CardsBlock.module.css';
+import { useEffect, useState, Fragment } from 'react';
+import { cardPost } from '../../api';
+import { OneCard } from '../OneCard/OneCard';
+import { ModalWindow } from '../ModalWindow/ModalWindow';
+import { OrderModal } from '../OrderModal/OrderModal';
 
 function CardsBlock() {
   const [list, setList] = useState([]);
@@ -15,22 +16,22 @@ function CardsBlock() {
   }, []);
 
   return (
-    <div id="katalog" className={styles.container}>
-      <marquee direction="right">
-        <h1 className={styles.impressions}>Каталог впечатлений</h1>
-      </marquee>
+    <div className={styles.container}>
+      <h1 className={styles.impressions}>Каталог впечатлений</h1>
 
-      <div className={styles.block_card_1}>
-        {list.map((item) => {
-          console.log(item);
-          return (
-            <Fragment key={item.id}>
-              <OneCard {...item} />
-              {/* <ModalWindow {...item}/> */}
-            </Fragment>
-          );
-        })}
-      </div>
+        <div className={styles.block_card_1}>
+          {list.map((item) => {
+            console.log(item);
+            return (
+              <Fragment  key={item.id}>
+                <OneCard {...item}/>
+                <ModalWindow {...item}/>
+                <OrderModal/>
+              </Fragment>
+            )
+          })}
+        </div>
+      
     </div>
   );
 }
