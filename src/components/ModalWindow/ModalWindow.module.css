@@ -1,14 +1,87 @@
-.madal_block {
+.modal_block {
+  /* position: absolute; */
+  /* justify-content: space-between; */
+  /* display: flex;
+  background: #FFFFFF;
+  
+  border-radius: 20px;
+  padding: 60px 20px 20px;
+  box-shadow: 0px 2px 3px #000; */
+  left: 191px;
+  /* transform: translate(-50%,-50%); */
+  border-radius: 20px;
+  position: fixed;
+  top: 50px;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: .2s;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal_block.active {
+  visibility: visible;
+  opacity: 1;
+}
+.modal_cont{
   display: flex;
-  justify-content: space-around;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 40px 40px;
+  box-shadow: 0px 2px 3px #000;
+  position: relative;
+  /* max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden; */
+  /* overflow-y: auto; */
 }
 .img_a{
   border-radius: 20px;
+  width: 450px;
+  margin-bottom: 30px;
 }
 .three_img {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .img_modal {
   border-radius: 20px;
+  width: 29%;
+}
+.modal_info {
+  margin-left: 40px;
+}
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.price {
+  margin: 20px 0 25px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #333333;
+}
+.btn {
+  margin-bottom: 40px;
+  padding: 18px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  background: #547147;
+  border-radius: 40px;
+  border: none;
+}
+.close {
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+  top: 5px;
+  right: 30px;
 }

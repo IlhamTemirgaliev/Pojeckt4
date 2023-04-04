@@ -6,8 +6,7 @@ import Nav from "./components/Nav/Nav";
 import "swiper/css";
 import { Slider } from "./components/Slider/Slider";
 import { HeaderCard } from "./components/HeaderCard/HeaderCard";
-import { ToglleBar } from "./components/ToglleBar/ToglleBar";
-import { SliderTo } from "./components/SliderTo/SliderTo";
+import { Certificat } from "./components/Certificat/Certificat";
 
 function App() {
   return (
