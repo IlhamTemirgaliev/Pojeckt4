@@ -21,7 +21,6 @@ function App() {
       <Slider />
       <HeaderCard />
       <CardsBlock />
-      <Certificat />
     </div>
   );
 }
