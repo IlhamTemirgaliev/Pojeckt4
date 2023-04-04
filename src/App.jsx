@@ -6,6 +6,7 @@ import Nav from "./components/Nav/Nav";
 import "swiper/css";
 import { Slider } from "./components/Slider/Slider";
 import { HeaderCard } from "./components/HeaderCard/HeaderCard";
+import { Certificat } from "./components/Certificat/Certificat";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Slider />
       <HeaderCard />
       <CardsBlock />
+      <Certificat />
     </div>
   );
 }

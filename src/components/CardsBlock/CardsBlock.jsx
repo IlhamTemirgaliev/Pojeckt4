@@ -3,6 +3,7 @@ import { useEffect, useState, Fragment } from 'react';
 import { cardPost } from '../../api';
 import { OneCard } from '../OneCard/OneCard';
 import { ModalWindow } from '../ModalWindow/ModalWindow';
+import { OrderModal } from '../OrderModal/OrderModal';
 
 function CardsBlock() {
   const [list, setList] = useState([]);
@@ -17,9 +18,7 @@ function CardsBlock() {
 
   return (
     <div className={styles.container}>
-      <marquee behavior="" direction="right">
-        <h1 className={styles.impressions}>Каталог впечатлений</h1>
-      </marquee>
+      <h1 className={styles.impressions}>Каталог впечатлений</h1>
 
         <div className={styles.block_card_1}>
           {list.map((item) => {
@@ -27,7 +26,8 @@ function CardsBlock() {
             return (
               <Fragment  key={item.id}>
                 <OneCard {...item}/>
-                {/* <ModalWindow {...item}/> */}
+                <ModalWindow {...item}/>
+                <OrderModal/>
               </Fragment>
             )
           })}
