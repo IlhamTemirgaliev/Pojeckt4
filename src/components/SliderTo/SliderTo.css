@@ -1,0 +1,10 @@
+.pagItem{
+    width: 16px !important;
+    height: 16px !important;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: red;
+    visibility: visible;
+     z-index: 10 !important;
+}

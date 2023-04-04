@@ -23,8 +23,8 @@
 }
 @media (max-width: 664px) {
   .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
   }
   .swiper-pagination {
     margin-bottom: 10px;
