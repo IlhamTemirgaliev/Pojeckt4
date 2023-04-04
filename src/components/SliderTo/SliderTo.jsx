@@ -33,7 +33,7 @@ export const SliderTo = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div className={styles.divvv}>
+          <div id="akz" className={styles.divvv}>
             <div>
               <span className={styles.spa}>акция месяца!</span>
               <div className={styles.wrap}>

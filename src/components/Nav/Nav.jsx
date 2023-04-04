@@ -8,11 +8,11 @@ const Nav = () => {
         Каталог
         <div></div>
       </a>
-      <a className={styles.nav_v} href="">
+      <a className={styles.nav_v} href="#akz">
         Акций
         <div></div>
       </a>
-      <a className={styles.nav_v} href="">
+      <a className={styles.nav_v} href="#kont">
         Контакты
         <div></div>
       </a>

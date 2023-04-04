@@ -17,7 +17,7 @@ export const ToglleBar = ({ attributes }) => {
   console.log(test);
   return (
     <Container>
-      <div>
+      <div id="kont">
         <h1 className={styles.title}>ЧАСТО ЗАДОВАЕМЫЕ ВОПРОСЫ </h1>
 
         {test.map((item, index) => {

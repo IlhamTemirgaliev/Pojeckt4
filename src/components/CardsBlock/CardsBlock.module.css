@@ -1,12 +1,9 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
-<<<<<<< HEAD
-  padding: 1rem 0;
   transition: 0.2s;
-=======
-  margin-top: 7%;
->>>>>>> 1d377fdfaf74ccae09a2b1a166e18a7904151920
+
+
   font-family: sans-serif;
   position: relative;
 }
