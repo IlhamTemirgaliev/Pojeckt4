@@ -7,14 +7,13 @@ import { OrderModal } from '../OrderModal/OrderModal';
 
 function CardsBlock() {
   const [list, setList] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(null)
-
+  const [currentIndex, setCurrentIndex] = useState(null);
 
   useEffect(() => {
-    cardPost().then(res => {
-      setList(res.data)
-    })
-  }, [])
+    cardPost().then((res) => {
+      setList(res.data);
+    });
+  }, []);
 
   return (
     <div className={styles.container}>
@@ -34,7 +33,7 @@ function CardsBlock() {
         </div>
       
     </div>
-  )
+  );
 }
 
-export default CardsBlock
+export default CardsBlock;

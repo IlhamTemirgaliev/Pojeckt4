@@ -1,5 +1,5 @@
 .card_block {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   position: relative;
@@ -13,21 +13,26 @@
   font-weight: 700;
   margin: 0;
   padding: 13px 18px;
-  color: #FFFFFF;
-  background: #DFA650;
+  color: #ffffff;
+  background: #dfa650;
   border-radius: 0px 20px;
+  font-family: "Montserrat", sans-serif;
 }
 .title_card {
   margin: 30px 30px auto;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+
   color: #333333;
 }
 .price_card {
   margin: 44px 0 24px 0;
   font-size: 40px;
   font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+
   text-align: center;
   color: #333333;
 }
@@ -36,14 +41,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
 .button_card {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 12px 95px;
+  font-family: "Montserrat", sans-serif;
+
   background: #547147;
+  cursor: pointer;
   border-radius: 40px;
   border: none;
 }
@@ -119,11 +128,12 @@
     width: 200px;
   }
   .title_card {
-    font-size: 18px;
+    font-size: 16px;
   }
   .price_card {
-    font-size: 26px;
+    font-size: 22px;
     margin: 0 0 14px 0;
+    font-weight: 700px;
   }
   .button_card {
     font-size: 14px;
